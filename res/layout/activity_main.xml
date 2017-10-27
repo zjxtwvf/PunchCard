@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/layout_control_accessibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打开服务" />
+        
+        <Button
+            android:id="@+id/bt_save"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="保存" />
+
+        <EditText
+            android:id="@+id/ev_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/bt_save"
+            android:layout_marginBottom="200dp"
+            android:background="@null"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:hint="密码"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/ev_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/ev_password"
+            android:layout_marginBottom="20dp"
+            android:background="@null"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:hint="账号"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

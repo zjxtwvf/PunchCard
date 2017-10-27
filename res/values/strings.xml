@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PunchCard</string>
+    <string name="accessibility_description">启动PunchCard服务</string>
+
+</resources>
